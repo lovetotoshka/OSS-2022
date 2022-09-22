@@ -97,11 +97,21 @@ find -type d -name ".svn" -print | xargs rm -fr
 find -type f -name "*.sh" -exec chmod +x {} \;
 ```
 4. Найдите все **файлы** (и только файлы) с расширением `conf` в каталоге `/etc` и подсчитайте их суммарный размер, используя команду du.
+
 ```sh
-find /etc -type f -name "*.conf" | du --summarize
+sudo find /etc -type f -name "*.conf" -exec  du -hs {} +
 ```
 
+
 Протестируйте команды, которые вы написали выше, для файлов и каталогов, в именах которых содержатся пробелы и специальные символы, такие как `!` и `&`.
+
+```
+touch test\ with\!\&\ spec_characters.txt
+find . -type f -name "*.txt" -exec cat {} \; | wc -l
+find . -type f -name "*characters.txt" -exec cat {} \; | wc -l
+```
+Find works quite good with files with spec. characters!
+
 
 Используя команду `grep`:
 
