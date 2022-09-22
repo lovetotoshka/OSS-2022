@@ -1,0 +1,12 @@
+.:
+итого 12
+drw-rw-rw-. 2 medvedeva.iv medvedeva.iv  22 сен 22 07:09 dir
+-rw-r-----. 1 root         medvedeva.iv   5 сен 22 07:04 file
+-rw-rw-rw-. 1 medvedeva.iv medvedeva.iv   0 сен 22 07:16 file1
+-rw-r--r--. 1 root         root         411 сен 22 07:26 lab2_root_history.txt
+-rw-r--r--. 1 root         root           0 сен 22 07:28 ls_-lR.txt
+-rw-rw-r--. 1 medvedeva.iv medvedeva.iv   7 сен 22 07:08 new_file
+
+./dir:
+итого 4
+-rw-rw-r--. 1 medvedeva.iv medvedeva.iv 7 сен 22 07:09 new_file

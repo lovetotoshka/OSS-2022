@@ -1,0 +1,21 @@
+    1  usermod -a -G medvedeva.iv
+    2  vi /etc/sudoers
+    3  vim /etc/sudoers
+    4  yum install -y git
+    5  exit
+    6  usermod -aG wheel medvedeva.iv
+    7  exit
+    8  id
+    9  whoami
+   10  exit
+   11  ls
+   12  cd test/
+   13  ls
+   14  chown root file
+   15  exit
+   16  chmod 600 file
+   17  cd test
+   18  chmod 600 file
+   19  chmod 640 file
+   20  history
+   21  history > lab2_root_history.txt
